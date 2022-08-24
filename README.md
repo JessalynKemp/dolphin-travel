@@ -125,11 +125,11 @@ npm test name_of_file
 - [country-flags-api](https://countryflagsapi.com)
 - [LocationIQ](https://locationiq.com/)
 
-### Version Requirements
+## Version Requirements
 
 - node.js: ^16.15.0
 
-### Future Improvements
+## Future Improvements
 - Authentication: the API relies on queries provided by the frontend to return the relevant information for the user that is logged in. In the future, it would be more appropriate to implement a proper authentication system such as Auth0 or Passport.js.
 - Restructure Data: more investigation into structuring noSQL data is required. Perhaps the days and activities would have their own collections.
 - Refactoring: some of the API's endpoints have repeated code which could be simplified.
